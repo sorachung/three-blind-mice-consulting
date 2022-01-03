@@ -3,7 +3,8 @@ import { Employee } from "./Employee.js"
 
 export const EmployeeList = () => {
     
-    return `<article>
-        ${Employee()}
-    </article>`
+    return `<div class="employee">
+        <h1>Employees</h1>
+            ${Employee()}
+        </div>`
 }
