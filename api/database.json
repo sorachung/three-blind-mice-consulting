@@ -36,37 +36,61 @@
             "id": 1,
             "firstName": "Rainu",
             "lastName": "Ittycheriah",
-            "computerId": 1
+            "computerId": 1,
+            "departmentId": 1
         },
         {
             "id": 2,
             "firstName": "Jennifer",
             "lastName": "Shearon",
-            "computerId": 2
+            "computerId": 2,
+            "departmentId": 1
         },
         {
             "id": 3,
             "firstName": "Rajan",
             "lastName": "Rabi",
-            "computerId": 3
+            "computerId": 3,
+            "departmentId": 2
         },
         {
             "id": 4,
             "firstName": "Ryan",
             "lastName": "Brommer",
-            "computerId": 4
+            "computerId": 4,
+            "departmentId": 3
         },
         {
             "id": 5,
             "firstName": "Dom",
             "lastName": "McWeld",
-            "computerId": 5
+            "computerId": 5,
+            "departmentId": 4
         },
         {
             "id": 6,
             "firstName": "Nina",
             "lastName": "Smith",
-            "computerId": 6
+            "computerId": 6,
+            "departmentId": 4
+        }
+    ],
+    "departments": [
+        {
+            "id": 1,
+            "name": "Sales"
+        },
+        {
+            "id": 2,
+            "name": "Accounting"
+        },
+        {
+            "id": 3,
+            "name": "Quality Assurance"
+        },
+        {
+            "id": 4,
+            "name": "Human Resources"
         }
     ]
 }
