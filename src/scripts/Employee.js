@@ -7,8 +7,10 @@ export const Employee = () => {
     
     return `
         ${employees.map(employee => {
+            const foundComputer = computers.find(computer => computer.id === employee.computerId)
             return `<section>
-            ${employee.firstName} ${employee.lastName}
+            <h2>${employee.firstName} ${employee.lastName}</h2>
+            <h3>${foundComputer.year} ${foundComputer.model}</h3>
             </section>`
         }).join("")}
     `
